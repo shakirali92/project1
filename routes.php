@@ -3,8 +3,7 @@
 $router->get('/', 'index.php');
 $router->get('/about', 'about.php');
 $router->get('/contact', 'contact.php');
-$router->get('/vconvert', 'wordpdf.php');
-$router->post('/vconvert', 'wordpdf.php');
+$router->get('/shop', 'shop.php');
 
 $router->get('/employees', 'employee/index.php')->only('auth');
 $router->get('/note', 'notes/show.php');

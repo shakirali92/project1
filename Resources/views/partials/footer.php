@@ -1,18 +1,22 @@
-<footer class="footer">
-        <div><a href="https://coreui.io">CoreUI </a><a href="https://coreui.io">Bootstrap Admin Template</a> © 2022 creativeLabs.</div>
-        <div class="ms-auto">Powered by&nbsp;<a href="https://shakir.com">Shakir</a></div>
-      </footer>
-    </div>
-    <!-- CoreUI and necessary plugins-->
-    <script src="<?= asset('vendors/@coreui/coreui/js/coreui.bundle.min.js')?>"></script>
-    <script src="<?= asset('vendors/simplebar/js/simplebar.min.js')?>"></script>
-    <!-- Plugins and scripts required by this view-->
-    <script src="<?= asset('vendors/chart.js/js/chart.min.js')?>"></script>
-    <script src="<?= asset('vendors/@coreui/chartjs/js/coreui-chartjs.js')?>"></script>
-    <script src="<?= asset('vendors/@coreui/utils/js/coreui-utils.js')?>"></script>
-    <script src="<?= asset('js/main.js')?>"></script>
-    <script>
-    </script>
-
-  </body>
+<div class="row footer_bottom">
+				    <div class="copy">
+			           <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+		            </div>
+					  <dl id="sample" class="dropdown">
+				        <dt><a href="#"><span>Change Region</span></a></dt>
+				        <dd>
+				            <ul>
+				                <li><a href="#">Australia<img class="flag" src="images/as.png" alt="" /><span class="value">AS</span></a></li>
+				                <li><a href="#">Sri Lanka<img class="flag" src="images/srl.png" alt="" /><span class="value">SL</span></a></li>
+				                <li><a href="#">Newziland<img class="flag" src="images/nz.png" alt="" /><span class="value">NZ</span></a></li>
+				                <li><a href="#">Pakistan<img class="flag" src="images/pk.png" alt="" /><span class="value">Pk</span></a></li>
+				                <li><a href="#">United Kingdom<img class="flag" src="images/uk.png" alt="" /><span class="value">UK</span></a></li>
+				                <li><a href="#">United States<img class="flag" src="images/us.png" alt="" /><span class="value">US</span></a></li>
+				            </ul>
+				         </dd>
+	   				  </dl>
+   				</div>
+			</div>
+		</div>
+</body>	
 </html>
